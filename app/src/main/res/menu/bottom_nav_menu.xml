@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/feedFragment"
+        android:icon="@drawable/ic_feed"
+        android:title="Pulse" />
+    <item
+        android:id="@+id/bookmarksFragment"
+        android:icon="@drawable/ic_bookmarks"
+        android:title="Saved" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Inspector" />
+</menu>

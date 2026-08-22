@@ -1,26 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/userListFragment">
+    app:startDestination="@id/feedFragment">
 
     <fragment
-        android:id="@+id/userListFragment"
-        android:name="com.example.interviewstarter.presentation.navigation.UserListFragment"
-        android:label="Users">
+        android:id="@+id/feedFragment"
+        android:name="com.example.interviewstarter.presentation.feed.FeedFragment"
+        android:label="Pulse"
+        tools:layout="@layout/fragment_feed">
         <action
-            android:id="@+id/action_userList_to_userDetail"
-            app:destination="@id/userDetailFragment" />
+            android:id="@+id/action_feed_to_detail"
+            app:destination="@id/detailFragment" />
     </fragment>
 
     <fragment
-        android:id="@+id/userDetailFragment"
-        android:name="com.example.interviewstarter.presentation.navigation.UserDetailFragment"
-        android:label="User detail">
-        <argument
-            android:name="userId"
-            app:argType="integer" />
+        android:id="@+id/bookmarksFragment"
+        android:name="com.example.interviewstarter.presentation.bookmarks.BookmarksFragment"
+        android:label="Saved"
+        tools:layout="@layout/fragment_bookmarks">
+        <action
+            android:id="@+id/action_bookmarks_to_detail"
+            app:destination="@id/detailFragment" />
+    </fragment>
 
-        <deepLink app:uri="interviewstarter://user/{userId}" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.interviewstarter.presentation.settings.SettingsFragment"
+        android:label="Inspector"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.example.interviewstarter.presentation.detail.DetailFragment"
+        android:label="Article Detail"
+        tools:layout="@layout/fragment_detail">
+        <argument
+            android:name="articleId"
+            app:argType="string" />
+
+        <deepLink app:uri="techpulse://article/{articleId}" />
     </fragment>
 </navigation>
