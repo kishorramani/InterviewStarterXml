@@ -1,0 +1,31 @@
+[
+  {
+    "name": "nav_graph",
+    "navigationXmlIds": [],
+    "deepLinks": [
+      {
+        "schemes": [
+          "interviewstarter"
+        ],
+        "host": "user",
+        "port": -1,
+        "path": "/.*",
+        "sourceFilePosition": {
+          "mSourceFile": {
+            "mDescription": "nav_graph.xml"
+          },
+          "mSourcePosition": {
+            "mStartLine": 23,
+            "mStartColumn": 8,
+            "mStartOffset": 867,
+            "mEndLine": 23,
+            "mEndColumn": 63,
+            "mEndOffset": 922
+          }
+        },
+        "isAutoVerify": false,
+        "action": "android.intent.action.VIEW"
+      }
+    ]
+  }
+]

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.example.interviewstarter.app-mergeDevDebugResources-55:/layout/fragment_user_detail.xml",
+        "source": "com.example.interviewstarter.app-main-60:/layout/fragment_user_detail.xml"
+    },
+    {
+        "merged": "com.example.interviewstarter.app-mergeDevDebugResources-55:/layout/item_user.xml",
+        "source": "com.example.interviewstarter.app-main-60:/layout/item_user.xml"
+    },
+    {
+        "merged": "com.example.interviewstarter.app-mergeDevDebugResources-55:/layout/activity_nav_host.xml",
+        "source": "com.example.interviewstarter.app-main-60:/layout/activity_nav_host.xml"
+    },
+    {
+        "merged": "com.example.interviewstarter.app-mergeDevDebugResources-55:/layout/activity_main.xml",
+        "source": "com.example.interviewstarter.app-main-60:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.interviewstarter.app-mergeDevDebugResources-55:/layout/fragment_user_list.xml",
+        "source": "com.example.interviewstarter.app-main-60:/layout/fragment_user_list.xml"
+    }
+]
