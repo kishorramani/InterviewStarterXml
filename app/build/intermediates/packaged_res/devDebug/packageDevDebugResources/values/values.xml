@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Interview Starter XML</string>
-    <string name="app_title">Android Interview Starter — XML</string>
-    <style name="Theme.InterviewStarter" parent="Theme.Material3.DayNight.NoActionBar"/>
-</resources>

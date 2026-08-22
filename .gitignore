@@ -1,0 +1,32 @@
+# Build artifacts
+**/build/
+.gradle/
+.kotlin/
+build/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# Local configuration
+local.properties
+google-services.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Captures
+captures/
+
+# NDK
+.externalNativeBuild/
+.cxx/
+
+# Secrets
+secrets.properties
